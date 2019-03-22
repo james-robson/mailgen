@@ -358,6 +358,20 @@ if (locals.action) {
                                             </table>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>
+                                            <!-- BACKUP TEXT LINK -->
+                                            <table align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td align="center" style="padding: 25px 0 0 0; font-size: 16px; line-height: 25px; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #666666;" class="padding-copy">
+                                                        <!-- TODO - Pass this in so it can be localised correctly -->
+                                                        <p>If you're having trouble clicking the "<%- actionItem.button.text %>" button, copy and paste the URL below into your web browser:</p>
+                                                        <a href="<%- actionItem.button.link %>" target="_blank"><%- actionItem.button.link %></a></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
                                 <% }) -%>
                             <% } %>
                             <!-- Outro -->
